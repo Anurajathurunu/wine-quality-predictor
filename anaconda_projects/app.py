@@ -19,7 +19,7 @@ except FileNotFoundError:
 # Load the original dataset for display
 # Make sure 'winequality-red.csv' is in your 'data/' folder
 try:
-    df = pd.read_csv('WineQT.csv')
+    df = pd.read_csv('data\WineQT.csv')
 except FileNotFoundError:
     st.error("Dataset file 'WineQT.csv' not found. Please ensure it's in the 'data/' directory.")
     st.stop()
